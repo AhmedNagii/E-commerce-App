@@ -53,7 +53,7 @@ function Image({ className, img }) {
     >
       {heartIcon()}
       {cartIcon()}
-      <img src={img.url} className="image-grid" />
+      <img src={img.url} className="image-grid" alt="" />
     </div>
   );
 }
